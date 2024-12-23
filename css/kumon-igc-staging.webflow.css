@@ -4741,6 +4741,20 @@ p {
     padding-right: 0;
   }
 
+  .button-4 {
+    margin-top: 1.75rem;
+  }
+
+  .nav-menu-3 {
+    background-color: #c3e4f8;
+    flex-flow: column;
+  }
+
+  .kumon-menu {
+    flex-flow: column;
+    margin-top: 2rem;
+  }
+
   .menu-button-3 {
     padding: 0;
   }
@@ -4981,6 +4995,13 @@ p {
   .list-11 {
     font-size: 14px;
     line-height: 18px;
+  }
+
+  .div-block-123 {
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    display: flex;
   }
 }
 
@@ -5872,14 +5893,20 @@ p {
   .three-four {
     grid-column-gap: 2.25rem;
     grid-row-gap: 2.25rem;
-    flex-flow: column;
+    flex-flow: column-reverse;
     order: 0;
   }
 
-  .five-six, .seven-eight {
+  .five-six {
     grid-column-gap: 2.25rem;
     grid-row-gap: 2.25rem;
     flex-flow: column;
+  }
+
+  .seven-eight {
+    grid-column-gap: 2.25rem;
+    grid-row-gap: 2.25rem;
+    flex-flow: column-reverse;
   }
 
   .bg-div {
@@ -6681,7 +6708,7 @@ p {
   }
 
   .kumon-school-section {
-    padding: 2rem 1.25rem;
+    padding: 3rem 1.25rem 2rem;
   }
 
   .kumon-school-div {
@@ -6714,7 +6741,7 @@ p {
   }
 
   .kumon-map-section {
-    padding: 2rem 1.25rem;
+    padding: 3rem 1.25rem 2rem;
   }
 
   .list-11 {
