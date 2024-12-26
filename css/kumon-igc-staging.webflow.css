@@ -3467,7 +3467,7 @@ p {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
-  padding: 6rem;
+  padding: 2rem 6rem 6rem;
   position: static;
 }
 
@@ -3629,7 +3629,7 @@ p {
 
 .feature-section {
   background-color: #f9f9fc;
-  padding: 9.125rem 6rem 6rem;
+  padding: 5rem 6rem 6rem;
 }
 
 .feature-container {
@@ -3691,10 +3691,11 @@ p {
 
 .upperdiv {
   grid-column-gap: 77px;
-  grid-row-gap: 150px;
+  grid-row-gap: 96px;
   flex-flow: wrap;
   place-content: center;
   place-items: center;
+  margin-top: -40px;
   display: flex;
 }
 
@@ -3706,11 +3707,12 @@ p {
 }
 
 .implement-kumon-section {
+  background-color: #f9f9fc;
   background-image: url('../images/bg24.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
-  padding: 9.125rem 6rem 6rem;
+  padding: 5rem 6rem 6rem;
 }
 
 .implement-kumon {
@@ -3839,7 +3841,7 @@ p {
 
 .services-section {
   background-color: #c3e4f8;
-  padding: 9.125rem 0 6rem;
+  padding: 5rem 0 6rem;
 }
 
 .service-container {
@@ -3963,7 +3965,7 @@ p {
 }
 
 .kumon-school-section {
-  padding: 9.125rem 6rem 2rem;
+  padding: 5rem 6rem 2rem;
 }
 
 .container-13 {
@@ -4126,7 +4128,7 @@ p {
 }
 
 .kumon-map-section {
-  padding: 9.125rem 6rem 6rem;
+  padding: 5rem 6rem 6rem;
 }
 
 .map-container {
@@ -4153,7 +4155,7 @@ p {
   margin-top: 20px;
   font-family: Lato, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .list-item, .text-block-17 {
@@ -4812,6 +4814,7 @@ p {
 
   .feature-card {
     width: 18rem;
+    height: 13rem;
   }
 
   .card-text {
@@ -4821,11 +4824,15 @@ p {
   }
 
   .upperdiv {
-    grid-row-gap: 100px;
+    grid-column-gap: 64px;
+    grid-row-gap: 64px;
+    margin-top: -64px;
   }
 
   .number-div {
-    top: -23%;
+    width: 60px;
+    height: auto;
+    top: -18%;
   }
 
   .implement-kumon-section {
